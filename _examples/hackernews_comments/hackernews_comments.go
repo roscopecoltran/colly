@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gocolly/colly"
+	"github.com/roscopecoltran/colly"
 )
 
 type comment struct {

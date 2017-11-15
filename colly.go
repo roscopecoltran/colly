@@ -19,7 +19,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gocolly/colly/debug"
+	"github.com/roscopecoltran/colly/debug"
 
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
@@ -161,7 +161,7 @@ func NewContext() *Context {
 // Init initializes the Collector's private variables and sets default
 // configuration for the Collector
 func (c *Collector) Init() {
-	c.UserAgent = "colly - https://github.com/gocolly/colly"
+	c.UserAgent = "colly - https://github.com/roscopecoltran/colly"
 	c.MaxDepth = 0
 	c.visitedURLs = make([]string, 0, 8)
 	c.htmlCallbacks = make([]*htmlCallbackContainer, 0, 8)
